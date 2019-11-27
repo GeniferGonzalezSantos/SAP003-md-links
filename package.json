@@ -1,5 +1,5 @@
 {
-  "name": "sap003-md-links",
+  "name": "md-links",
   "version": "1.0.0",
   "description": "## Índice",
   "main": "index.js",
@@ -22,5 +22,8 @@
   "devDependencies": {
     "eslint": "^6.7.1",
     "eslint-plugin-react": "^7.16.0"
+  },
+  "bin": {
+    "md-links": "./src/cli.js"
   }
 }
