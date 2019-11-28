@@ -1,10 +1,10 @@
 #! /usr/bin/env node
-const mdLinks = require('./index.js');
+const mdLinks = require("./index.js");
 
 mdLinks(process.argv[2])
-.then((result) => {
+  .then((result) => {
     console.log(result);
     
-})
-.catch(console.error)
+  })
+  .catch(console.error);
 
