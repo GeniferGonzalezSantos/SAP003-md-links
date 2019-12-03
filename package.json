@@ -17,13 +17,14 @@
   },
   "homepage": "https://github.com/GeniferGonzalezSantos/SAP003-md-links#readme",
   "dependencies": {
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "link": "^0.1.5"
   },
   "devDependencies": {
     "eslint": "^6.7.1",
     "eslint-plugin-react": "^7.16.0"
   },
   "bin": {
-    "md-links": "./src/cli.js"
+    "md-links": "./cli.js"
   }
 }
